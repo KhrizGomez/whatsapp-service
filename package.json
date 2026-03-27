@@ -1,0 +1,16 @@
+{
+  "name": "sgte-whatsapp-service",
+  "version": "1.0.0",
+  "description": "Microservicio WhatsApp para SGTE - Sistema de Gestión de Trámites Estudiantiles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "express": "^4.21.0",
+    "pino": "^9.5.0"
+  }
+}
